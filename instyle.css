@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+}
+body {
+    background-image: url(web1b.jpg);
+    background-size: cover;
+    color: azure;
+    padding: 10px 100px 10px 100px;
+    font-size: 1.5rem;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: crimson;
+    background-color: rgba(0, 17, 255, 0.2);
+}
+.button {
+    color: rgb(19, 4, 233);
+    height: 40px;
+    width: 300px;
+    display: inline-block;
+    border: 2px solid grey;
+    padding: 10px 10px 10px 10px;
+}
+.button :hover{
+    color: rgb(0, 119, 255);
+}
+#img1{
+    float: right;
+    transition: all 0.5s;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+#img1:hover{
+    transform: scale(1.2);
+}
